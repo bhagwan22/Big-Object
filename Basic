@@ -1,0 +1,48 @@
+## (Object)
+fieldHistoryArchive[Standard big object]
+
+
+## (Tool)
+fieldOrderTail - auditing tool for field
+
+
+## Big object
+=> __b
+=> can iterate 1B record with no compromise on performance
+=> used for large data enterprise volumne 
+=> only created via Metadata API(package.xml) path to .object and .permissionset file , objects foler with (.Object xml) file which is defination of object and specifies indexes,indexes sequesnce[help to soql], permissionset folder with(.permissionset) file
+=> then deploy via workbench(migration--> deploy--> choose file(zip file) --> [to test choose "check only", "single package"]) --> deploy [but for deployment do not check "check only"]
+ONCE DEPLOY IT WILL APPERAR AT "
+setup --> big Object
+"
+=> access level need to set via profile or permission set
+=> 100 big object per org
+=> only have (datetime, lookup, number, text, longtextArea) field
+=> trigger, flow, process builder not available in big object
+=> for Asyc SOQL will need seperate licence
+=> UI unavailable(list view, detalepage, tab), but can use in VF and Lightning component.
+=> only have object and field permission nothing like record level permission
+=> No standard report, but can use Einsteing Analyics
+-> can include in Manage package.
+
+=> To insert/manupulate record in big object use apex, csv file, api
+=> insert via APEX
+   ----------------
+insertImmediate(sobject/sobjects)  => for upsert
+ex:
+workbench-->utilities--> "Apex execute" --> create new record
+
+
+=> view record via query(from query editor)
+   --------------------------------
+-> STANDARD SOQL for big object: 
+- sync execution
+- required to include all the index field
+ex:
+   workbench --> query
+
+-> via ASYC SOQL : Rest url - /services/data/v41.0/asyc-queries/
+   -------------
+- query field + operation(insert/update -> becz asyc soql will dump query data into a temp object) + targetObject + (target field map target value map)
+- used for summarizing or alalytics
+- in a json format
