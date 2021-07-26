@@ -41,8 +41,12 @@ workbench-->utilities--> "Apex execute" --> create new record
 ex:
    workbench --> query
 
--> via ASYC SOQL : Rest url - /services/data/v41.0/asyc-queries/
+-> via ASYC SOQL : via Rest url - /services/data/v41.0/asyc-queries/
    -------------
 - query field + operation(insert/update -> becz asyc soql will dump query data into a temp object) + targetObject + (target field map target value map)
 - used for summarizing or alalytics
 - in a json format
+
+OR
+
+Workbench --> queries -> asyc soql
