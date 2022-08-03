@@ -1,10 +1,10 @@
 # Big Object:
 > Standard:
-    defined by Salesforce and are included in Salesforce products. 
-    "FieldHistoryArchive" part of our Field Audit Trail product, is an example of a standard big object. FieldHistoryArchive allows you to store up to 10 years’ worth of archived field history data, helping you comply with industry regulations related to auditing and data retention.
+defined by Salesforce and are included in Salesforce products. 
+"FieldHistoryArchive" part of our Field Audit Trail product, is an example of a standard big object. FieldHistoryArchive allows you to store up to 10 years’ worth of archived field history data, helping you comply with industry regulations related to auditing and data retention.
 	
 > Custom big objects: 
-      are defined and deployed in Setup. where we set its definition, fields, and index.
+are defined and deployed in Setup. where we set its definition, fields, and index.
  
  ## Points
  ```
