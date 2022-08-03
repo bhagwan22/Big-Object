@@ -7,6 +7,7 @@
       are defined and deployed in Setup. where we set its definition, fields, and index.
  
  ** Points **
+ ```
 	- sufix __b
 	- can use in SOQL, Asyc SOQL 
 	- Async SOQL most efficient way to process the large amount of data in a big object.
@@ -27,4 +28,4 @@
 
 	- big object support below field type: lookup, dateTime, text, email, phone, Number, longText
 	- apex use "databse.insertImmediate()" to upsert big object record based on primary key
-
+```
