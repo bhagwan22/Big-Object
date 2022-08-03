@@ -6,7 +6,7 @@
 > Custom big objects: 
       are defined and deployed in Setup. where we set its definition, fields, and index.
  
- ** Points **
+ ## Points
  ```
 	- sufix __b
 	- can use in SOQL, Asyc SOQL 
