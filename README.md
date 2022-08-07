@@ -35,8 +35,8 @@
  - We can use these comparison operators =, <, >, <=, >=, or IN on the last field in your query. Any prior fields in your query can only use the = operator. 
  - Example
  	 ```
- 	- The following queries assume that you have a big object in which the index is defined by Account__c, Game_Platform__c, and Play_Date__c.
- 	- SELECT Account__c, Game_Platform__c, Play_Date__c
+ 	 - The following queries assume that you have a big object in which the index is defined by Account__c, Game_Platform__c, and Play_Date__c.
+ 	  SELECT Account__c, Game_Platform__c, Play_Date__c
 	  FROM Customer_Interaction__b
 	  WHERE Account__c='001R000000302D3' AND Game_Platform__c='PC' AND Play_Date__c=2017-09-06T00:00:00Z 	
 	```
