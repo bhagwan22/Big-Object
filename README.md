@@ -33,7 +33,7 @@
 ## SOQL
  - SOQL to query big object, we can query only on the fields that make up our index, in the order you defined them in without missing any field.
  - We can use these comparison operators =, <, >, <=, >=, or IN on the last field in your query. Any prior fields in your query can only use the = operator. 
- - Example
+ - Example: **the below SOQL query will work because it inclued all field in soql and filter with correct sequence**
  	 ```
  	 - The following queries assume that you have a big object in which the index is defined by Account__c, Game_Platform__c, and Play_Date__c.
  	  SELECT Account__c, Game_Platform__c, Play_Date__c
