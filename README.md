@@ -45,4 +45,5 @@
   - With Async SOQL we can use filtering to extract a small subset of your big object data into a custom object. with correct mapping
   - in Async SOQL we can skip including all index and also can apply filter to index field
   - Async SOQL also allow Aggrigate query in big Object
+  - Note: *** Async query included only with licensing of additional big object capability ***
 
