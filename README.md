@@ -31,8 +31,8 @@
 ```
 
 ## SOQL
-	 - SOQL to query big object, we can query only on the fields that make up our index, in the order you defined them in without missing any field.
-	 - We can use these comparison operators =, <, >, <=, >=, or IN on the last field in your query. Any prior fields in your query can only use the = operator. 
+ - SOQL to query big object, we can query only on the fields that make up our index, in the order you defined them in without missing any field.
+ - We can use these comparison operators =, <, >, <=, >=, or IN on the last field in your query. Any prior fields in your query can only use the = operator. 
 	
 ## Async SOQL:
 	 - in Async SOQL we can skip including all index and also can apply filter to index field
