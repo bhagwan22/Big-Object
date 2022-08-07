@@ -25,7 +25,7 @@
 				 - long text area field can not be used in index
 				 - Once you’ve created an index, you can’t edit or delete it. To change the index, create another big object with a new index.
 				 - SOQL to query big object, we can query only on the fields that make up our index, in the order you defined them in without missing any field.
-				 - >  can use these comparison operators =, <, >, <=, >=, or IN on the last field in your query. Any prior fields in your query can only use the = operator. 
+				 - We can use these comparison operators =, <, >, <=, >=, or IN on the last field in your query. Any prior fields in your query can only use the = operator. 
 				 - in Async SOQL we can skip including all index and also can apply filter to index field
 
 	- big object support below field type: lookup, dateTime, text, email, phone, Number, longText
