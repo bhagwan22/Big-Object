@@ -63,4 +63,4 @@
 			     }
 	}
 ```
-  - return JobIb and Status
+  - return JobId and Status
