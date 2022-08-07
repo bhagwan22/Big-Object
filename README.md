@@ -46,6 +46,7 @@
   - in Async SOQL we can skip including all index and also can apply filter to index field
   - Async SOQL also allow Aggrigate query in big Object
   - Note: *** Async query included only with licensing of additional big object capability ***
+  - https://MyDomainName.my.salesforce.com/services/data/v41.0/async-queries/
 ```
 	{ 
 	   "query": "SELECT Account__c, In_Game_Purchase__c FROM Customer_Interaction__b WHERE Play_Date__c=2017-09-06T00:00:00Z",
