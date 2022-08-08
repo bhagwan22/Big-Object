@@ -64,3 +64,5 @@
 	}
 ```
   - return JobId and Status
+  
+  __ Note: can only insert virtual objects(big, ext) with Database.InsertImmidiate(obj) and insertAsync(obj); __
